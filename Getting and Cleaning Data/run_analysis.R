@@ -21,7 +21,7 @@
 packages <- c("data.table", "reshape2", "dplyr")
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
 
-# Assumes the Git repository : https://github.com/dholtz/GettingAndCleaningData
+# Assumes the Git repository : https://github.com/sreerammc/datasciencecoursera/edit/master/Getting%20and%20Cleaning%20Data/
 # has been cloned to a users local machine, and the R, setwd(), has been used 
 # to set the working directory to the root of this cloned repository.
 path <- getwd()
